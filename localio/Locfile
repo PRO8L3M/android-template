@@ -1,0 +1,7 @@
+platform :android
+output_path '../app/src/main/res'
+source :xlsx,
+       :path => 'Prosoma-localizations.xlsx',
+       :sheet => 'Mobile',
+       :override_default => 'en'
+formatting :none
